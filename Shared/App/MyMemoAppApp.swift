@@ -11,7 +11,7 @@ import SwiftUI
 struct MyMemoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            firstView()
         }
     }
 }

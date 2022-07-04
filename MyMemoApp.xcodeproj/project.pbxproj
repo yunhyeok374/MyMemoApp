@@ -9,25 +9,31 @@
 /* Begin PBXBuildFile section */
 		AA3F22332872CD8300C352A2 /* MyMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22232872CD8300C352A2 /* MyMemoAppApp.swift */; };
 		AA3F22342872CD8300C352A2 /* MyMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22232872CD8300C352A2 /* MyMemoAppApp.swift */; };
-		AA3F22352872CD8300C352A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22242872CD8300C352A2 /* ContentView.swift */; };
-		AA3F22362872CD8300C352A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22242872CD8300C352A2 /* ContentView.swift */; };
+		AA3F22352872CD8300C352A2 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22242872CD8300C352A2 /* firstView.swift */; };
+		AA3F22362872CD8300C352A2 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22242872CD8300C352A2 /* firstView.swift */; };
 		AA3F22372872CD8300C352A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22252872CD8300C352A2 /* Assets.xcassets */; };
 		AA3F22382872CD8300C352A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22252872CD8300C352A2 /* Assets.xcassets */; };
 		AA3F22422872CD9C00C352A2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22412872CD9C00C352A2 /* ModelData.swift */; };
 		AA3F22432872CD9C00C352A2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22412872CD9C00C352A2 /* ModelData.swift */; };
 		AA3F22452872CDB700C352A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22442872CDB700C352A2 /* ViewController.swift */; };
 		AA3F22462872CDB700C352A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22442872CDB700C352A2 /* ViewController.swift */; };
+		AA3F22772872D95500C352A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22762872D95500C352A2 /* DetailView.swift */; };
+		AA3F22782872D95500C352A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22762872D95500C352A2 /* DetailView.swift */; };
+		AA3F227A2872E22600C352A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22792872E22600C352A2 /* Localizable.strings */; };
+		AA3F227B2872E22600C352A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22792872E22600C352A2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA3F22232872CD8300C352A2 /* MyMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMemoAppApp.swift; sourceTree = "<group>"; };
-		AA3F22242872CD8300C352A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA3F22242872CD8300C352A2 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
 		AA3F22252872CD8300C352A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3F222A2872CD8300C352A2 /* MyMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3F22302872CD8300C352A2 /* MyMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3F22322872CD8300C352A2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		AA3F22412872CD9C00C352A2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		AA3F22442872CDB700C352A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA3F22762872D95500C352A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AA3F22792872E22600C352A2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		AA3F221D2872CD8300C352A2 = {
 			isa = PBXGroup;
 			children = (
+				AA3F22792872E22600C352A2 /* Localizable.strings */,
 				AA3F22222872CD8300C352A2 /* Shared */,
 				AA3F22312872CD8300C352A2 /* macOS */,
 				AA3F222B2872CD8300C352A2 /* Products */,
@@ -113,7 +120,8 @@
 		AA3F224A2872CDE300C352A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AA3F22242872CD8300C352A2 /* ContentView.swift */,
+				AA3F22242872CD8300C352A2 /* firstView.swift */,
+				AA3F22762872D95500C352A2 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ko-KR",
 			);
 			mainGroup = AA3F221D2872CD8300C352A2;
 			productRefGroup = AA3F222B2872CD8300C352A2 /* Products */;
@@ -198,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3F22372872CD8300C352A2 /* Assets.xcassets in Resources */,
+				AA3F227A2872E22600C352A2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3F22382872CD8300C352A2 /* Assets.xcassets in Resources */,
+				AA3F227B2872E22600C352A2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3F22352872CD8300C352A2 /* ContentView.swift in Sources */,
+				AA3F22352872CD8300C352A2 /* firstView.swift in Sources */,
 				AA3F22332872CD8300C352A2 /* MyMemoAppApp.swift in Sources */,
 				AA3F22452872CDB700C352A2 /* ViewController.swift in Sources */,
+				AA3F22772872D95500C352A2 /* DetailView.swift in Sources */,
 				AA3F22422872CD9C00C352A2 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,9 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3F22362872CD8300C352A2 /* ContentView.swift in Sources */,
+				AA3F22362872CD8300C352A2 /* firstView.swift in Sources */,
 				AA3F22342872CD8300C352A2 /* MyMemoAppApp.swift in Sources */,
 				AA3F22462872CDB700C352A2 /* ViewController.swift in Sources */,
+				AA3F22782872D95500C352A2 /* DetailView.swift in Sources */,
 				AA3F22432872CD9C00C352A2 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
