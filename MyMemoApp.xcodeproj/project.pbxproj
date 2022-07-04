@@ -13,6 +13,10 @@
 		AA3F22362872CD8300C352A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22242872CD8300C352A2 /* ContentView.swift */; };
 		AA3F22372872CD8300C352A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22252872CD8300C352A2 /* Assets.xcassets */; };
 		AA3F22382872CD8300C352A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F22252872CD8300C352A2 /* Assets.xcassets */; };
+		AA3F22422872CD9C00C352A2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22412872CD9C00C352A2 /* ModelData.swift */; };
+		AA3F22432872CD9C00C352A2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22412872CD9C00C352A2 /* ModelData.swift */; };
+		AA3F22452872CDB700C352A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22442872CDB700C352A2 /* ViewController.swift */; };
+		AA3F22462872CDB700C352A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F22442872CDB700C352A2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		AA3F222A2872CD8300C352A2 /* MyMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3F22302872CD8300C352A2 /* MyMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3F22322872CD8300C352A2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AA3F22412872CD9C00C352A2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		AA3F22442872CDB700C352A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,10 @@
 		AA3F22222872CD8300C352A2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				AA3F22232872CD8300C352A2 /* MyMemoAppApp.swift */,
-				AA3F22242872CD8300C352A2 /* ContentView.swift */,
+				AA3F22492872CDD800C352A2 /* App */,
+				AA3F224A2872CDE300C352A2 /* View */,
+				AA3F22482872CDC700C352A2 /* ViewController */,
+				AA3F22472872CDBD00C352A2 /* Model */,
 				AA3F22252872CD8300C352A2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +84,38 @@
 				AA3F22322872CD8300C352A2 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		AA3F22472872CDBD00C352A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F22412872CD9C00C352A2 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA3F22482872CDC700C352A2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F22442872CDB700C352A2 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA3F22492872CDD800C352A2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F22232872CD8300C352A2 /* MyMemoAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA3F224A2872CDE300C352A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F22242872CD8300C352A2 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +218,8 @@
 			files = (
 				AA3F22352872CD8300C352A2 /* ContentView.swift in Sources */,
 				AA3F22332872CD8300C352A2 /* MyMemoAppApp.swift in Sources */,
+				AA3F22452872CDB700C352A2 /* ViewController.swift in Sources */,
+				AA3F22422872CD9C00C352A2 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +229,8 @@
 			files = (
 				AA3F22362872CD8300C352A2 /* ContentView.swift in Sources */,
 				AA3F22342872CD8300C352A2 /* MyMemoAppApp.swift in Sources */,
+				AA3F22462872CDB700C352A2 /* ViewController.swift in Sources */,
+				AA3F22432872CD9C00C352A2 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
